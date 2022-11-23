@@ -486,7 +486,13 @@ text-align: center;
     outline: 1px solid black;
     list-style: none;
   } 
-  .action button {
+
+  .button-icon {
+   width: 20px;
+   height: 20px;
+   
+  }
+  /* .action .icon-instagram {
     display: block;
     width: 20px;
     height: 20px;
@@ -494,6 +500,15 @@ text-align: center;
     border: none;
     background-image: url("../images/HW-4/icons/instagram.svg");
   }
+
+  .action .icon-twitter {
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background-image: url("../images/HW-4/icons/twitter.svg");
+  } */
 
   .buttonhole {
     padding: 0;

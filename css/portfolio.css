@@ -178,46 +178,62 @@
   }
   
   /* Auth */
-  
-  .auth-nav {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    flex-wrap: wrap;
-    /* margin-top: 94px; */
-  }
-  
-  .auth-nav .item + .item {
-    margin-left: 50px;
-  }
-  
-  .auth-nav .link {
-    display: flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
-    
-  }
-  
-  .auth-nav .link:hover,
-  .auth-nav .link:focus {
-  color: var(--accent-color);
-  }
-  
-  
-  .team-mail-icon,
-   .team-phone-icon  {
-    fill: #757575;
-    margin-right: 10px;
-    display:block;
-    content: "";
-  }
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* margin-top: 94px; */
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+
+.auth-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.auth-link:hover,
+.auth-link:focus {
+color: var(--accent-color);
+}
+
+.team-mail-icon {
+  fill:currentColor;
+  margin-right: 10px;
+}
+
+.tel-nav-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.tel-nav-link:hover,
+.tel-nav-link:focus {
+color: var(--accent-color);
+}
+
+.team-phone-icon {
+  fill:currentColor;
+  margin-right: 10px;
+}
 
   /* Section */
   .section {
@@ -263,7 +279,7 @@
   }
   
 
-  .button-nav .link {
+  .button-link {
     font-family: inherit;
     cursor: pointer;
     border: 1px solid transparent;
@@ -283,18 +299,14 @@
     margin-left: 8px;
   }
 
-  .button-nav .link:hover {
-    color: var(--title-button-color);
+  .button-link:hover,
+  .button-link:focus {
     background-color: var(--accen-button-color);
+  color: var(--title-button-color);
   }
 
-  /* .button-nav .primary {
-    border-radius: 4px;
-    color: var(--title-button-color);
-    background-color: var(--accen-button-color);
-    }  */
 
-    /* Portfolio-list */
+    /* -----Portfolio-list------- */
     
     .flex-container {
       cursor: pointer;
@@ -483,8 +495,11 @@ margin-right: 70px;
   }
 
   .team-soc-footer:hover {
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     background-color: #2196F3;
+  }
+  .team-soc-footer:focus{
+    color: #FFFFFF;
   }
 
 

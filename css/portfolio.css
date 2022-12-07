@@ -494,12 +494,10 @@ margin-right: 70px;
     background: rgba(255, 255, 255, 0.1);
   }
 
-  .team-soc-footer:hover {
-    /* color: #FFFFFF; */
-    background-color: #2196F3;
-  }
-  .team-soc-footer:focus{
+  .team-soc-footer:hover,
+  .team-soc-footer:focus {
     color: #FFFFFF;
+    background-color: #2196F3;
   }
 
 
